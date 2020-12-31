@@ -24,6 +24,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        
+      - uses: Techno-Disaster/Flutter-Mate@v1.0.0
       - name: Deploy Flutter web app to github pages
         uses: erickzanardo/flutter-gh-pages@v2
